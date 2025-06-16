@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Login from './pages/Login';
+import BookList from './pages/BookList';
+import Stats from './pages/Stats';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-      TODO: make app
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/books" element={<BookList />} />
+        <Route path="/stats" element={<Stats />} />
+      </Routes>
+    </Router>
   );
 }
 
