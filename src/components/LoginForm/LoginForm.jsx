@@ -1,10 +1,13 @@
-import React from 'react';
+import {useState} from 'react';
 
 import './LoginForm.css'
 
 function LoginForm({onLogin}) {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
   return (
-    <div>
+    <div className='LoginForm'>
       Login
     </div>
   );

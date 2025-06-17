@@ -1,0 +1,23 @@
+.SignUpForm{
+  width: 50%;
+  height: fit-content;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 15px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  overflow-y: scroll;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SignUpForm::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.SignUpForm:hover::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
