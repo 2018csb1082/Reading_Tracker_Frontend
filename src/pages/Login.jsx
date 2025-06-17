@@ -1,5 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import LoginContainer from '../components/LoginContainer/LoginContainer';
+
+import './Pages.css'
 
 function Login() {
   const navigate = useNavigate();
@@ -10,11 +13,8 @@ function Login() {
   };
 
   return (
-    <div className="p-4">
-      <h1>Login</h1>
-      <button onClick={handleLogin}>
-        Login
-      </button>
+    <div className="BasePage">
+      <LoginContainer onLogin={handleLogin}/>
     </div>
   );
 }

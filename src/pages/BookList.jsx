@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './Pages.css'
+
 function BookList() {
   return (
-    <div className="p-4">
+    <div className="BasePage">
       <h1>Books</h1>
         <Link to="/stats">
           View Stats
