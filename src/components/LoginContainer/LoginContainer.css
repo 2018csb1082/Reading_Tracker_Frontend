@@ -1,0 +1,25 @@
+.LoginContainer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.LogIn{
+  background-color: #ADD8E6;
+  width: 80%;
+  height: 100%;
+}
+
+.SignUp{
+  background-color: #6495ED;
+  width: 80%;
+  height: 100%;
+}
+
+.Small {
+  width: 20%;
+}
