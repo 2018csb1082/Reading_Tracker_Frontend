@@ -8,16 +8,19 @@
   
 }
 
-.LogIn{
-  background-color: #ADD8E6;
-  width: 80%;
+.LogIn, .SignUp {
+  transition: width 0.5s ease;
   height: 100%;
+  width: 80%;
+  background-color: #ADD8E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
 }
 
-.SignUp{
+.SignUp {
   background-color: #6495ED;
-  width: 80%;
-  height: 100%;
 }
 
 .Small {
