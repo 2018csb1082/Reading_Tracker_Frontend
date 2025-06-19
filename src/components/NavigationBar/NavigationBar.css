@@ -1,0 +1,34 @@
+.NavigationBarWrapper {
+  width: 100%;
+  height: 50px;
+  font-size: x-large;
+}
+
+.NavigationBarContainer {
+  width: 100%;
+  height: 50px;
+  font-size: x-large;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4169E1;
+  color: #ffffff;
+
+  .Icon {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .Title {
+    width: fit-content;
+  }
+}
+
+.DropdownMenu {
+  position: relative;
+  z-index: 10;
+}
