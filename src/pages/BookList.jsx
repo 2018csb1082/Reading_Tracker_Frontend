@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import NavigationBar from '../components/NavigationBar/NavigationBar';
 import './Pages.css'
 
 function BookList() {
+
   return (
     <div className="BasePage">
-      <h1>Books</h1>
-        <Link to="/stats">
-          View Stats
-        </Link>
+      <NavigationBar title="My Books" link1="/stats" link2="/"/>
+      <div className="WorkSpace">Books</div>
     </div>
   );
 }
