@@ -19,7 +19,7 @@ function LoginContainer({onLogin}) {
       <div className='LoginContainer'>
         <div className='LogIn Small'>
           <div className='Question'>Already have an account?</div>
-          <button className='ChangeForm' onClick={handleOldUser}>click here!</button>
+          <button className='ChangeForm' onClick={handleOldUser}>Click Here!</button>
         </div>
         <div className='SignUp'>
           <SignUpForm onLogin={onLogin}/>
@@ -35,7 +35,7 @@ function LoginContainer({onLogin}) {
       </div>
       <div className='SignUp Small'>
         <div className='Question'>Don't have an account?</div>
-        <button className='ChangeForm' onClick={handleNewUser}>click here!</button>
+        <button className='ChangeForm' onClick={handleNewUser}>Click Here!</button>
       </div>
     </div>
   );

@@ -12,19 +12,49 @@
   transition: width 0.5s ease;
   height: 100%;
   width: 80%;
-  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
 }
 
-.SignUp {
-  background-color: #4169E1;
-}
-
 .Small {
   width: 20%;
+  overflow: hidden;
+}
+
+.LogIn {
+  background-color: #ffffff;
+  .Question {
+    max-width: 250px;
+    text-align: center;
+    font-size: large;
+    color: #4169E1;
+  }
+  .ChangeForm {
+    font-size: large;
+    background-color: #4169E1;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+  }
+}
+
+.SignUp {
+  background-color: #4169E1;
+  .Question {
+    max-width: 250px;
+    text-align: center;
+    font-size: large;
+    color: #ffffff;
+  }
+  .ChangeForm {
+    font-size: large;
+    background-color: #ffffff;
+    color: #4169E1;
+    border: none;
+    border-radius: 3px;
+  }
 }
 
 .Alert {
