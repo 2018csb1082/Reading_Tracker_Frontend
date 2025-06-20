@@ -2,6 +2,7 @@
   width: 100%;
   height: 50px;
   font-size: x-large;
+  position: relative;
 }
 
 .NavigationBarContainer {
@@ -22,6 +23,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    .DropDownButton {
+      font-size: x-large;
+      height: 100%;
+      width: 100%;
+      background-color: #4169E1;
+      color: #ffffff;
+      border: none;
+      outline: none;
+    }
   }
   .Title {
     width: fit-content;
@@ -29,6 +39,33 @@
 }
 
 .DropdownMenu {
-  position: relative;
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  background-color: #ffffff;
+  color: #4169E1;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .NavigateButton {
+    font-size: large;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
+  .NavigateButton:hover {
+    font-size: large;
+    width: 100%;
+    height: 100%;
+    background-color: #4169E1;
+    color: #ffffff;
+    border: none;
+    outline: none;
+  }
 }
