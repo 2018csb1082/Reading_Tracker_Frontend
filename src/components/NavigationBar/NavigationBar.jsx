@@ -12,10 +12,10 @@ const NavigationBar = ({title, link1, link2}) => {
     setDropdown(!dropdown);
   }
   const handleLogout = () => {
-    navigate('/');
+    navigate(link2);
   }
   const handleStats = () => {
-    navigate('/stats');
+    navigate(link1);
   }
 
   return(
