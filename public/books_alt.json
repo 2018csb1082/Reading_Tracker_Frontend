@@ -1,0 +1,86 @@
+[
+  {
+    "id": 13,
+    "name": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "genre": "Spirituality",
+    "image": "https://covers.openlibrary.org/b/id/8235116-L.jpg"
+  },
+  {
+    "id": 14,
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "image": "https://covers.openlibrary.org/b/id/7352167-L.jpg"
+  },
+  {
+    "id": 15,
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Classic",
+    "image": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "genre": "Finance",
+    "image": "https://covers.openlibrary.org/b/id/8155416-L.jpg"
+  },
+  {
+    "id": 17,
+    "name": "The 5 AM Club",
+    "author": "Robin Sharma",
+    "genre": "Self-Improvement",
+    "image": "https://covers.openlibrary.org/b/id/10542256-L.jpg"
+  },
+  {
+    "id": 18,
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "image": "https://covers.openlibrary.org/b/id/8231836-L.jpg"
+  },
+  {
+    "id": 19,
+    "name": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "image": "https://covers.openlibrary.org/b/id/6979861-L.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "image": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": "Psychology",
+    "image": "https://covers.openlibrary.org/b/id/10541655-L.jpg"
+  },
+  {
+    "id": 22,
+    "name": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "genre": "Science",
+    "image": "https://covers.openlibrary.org/b/id/9272460-L.jpg"
+  },
+  {
+    "id": 23,
+    "name": "The Art of War",
+    "author": "Sun Tzu",
+    "genre": "Philosophy",
+    "image": "https://covers.openlibrary.org/b/id/8231837-L.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "genre": "Biography",
+    "image": "https://covers.openlibrary.org/b/id/7222249-L.jpg"
+  }
+]

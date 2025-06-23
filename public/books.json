@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "genre": "Thriller",
+    "image": "https://covers.openlibrary.org/b/id/10594762-L.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-Help",
+    "image": "https://covers.openlibrary.org/b/id/10594752-L.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "image": "https://covers.openlibrary.org/b/id/10318328-L.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Becoming",
+    "author": "Michelle Obama",
+    "genre": "Biography",
+    "image": "https://covers.openlibrary.org/b/id/9259256-L.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Educated",
+    "author": "Tara Westover",
+    "genre": "Memoir",
+    "image": "https://covers.openlibrary.org/b/id/8952766-L.jpg"
+  },
+  {
+    "id": 6,
+    "name": "The Midnight Library",
+    "author": "Matt Haig",
+    "genre": "Fantasy",
+    "image": "https://covers.openlibrary.org/b/id/10629545-L.jpg"
+  },
+  {
+    "id": 7,
+    "name": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "image": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+  },
+  {
+    "id": 8,
+    "name": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Philosophical",
+    "image": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "image": "https://covers.openlibrary.org/b/id/9262465-L.jpg"
+  },
+  {
+    "id": 10,
+    "name": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "Self-Help",
+    "image": "https://covers.openlibrary.org/b/id/8370221-L.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "genre": "Mystery",
+    "image": "https://covers.openlibrary.org/b/id/9354586-L.jpg"
+  },
+  {
+    "id": 12,
+    "name": "The Book Thief",
+    "author": "Markus Zusak",
+    "genre": "Historical Fiction",
+    "image": "https://covers.openlibrary.org/b/id/8221251-L.jpg"
+  }
+]
