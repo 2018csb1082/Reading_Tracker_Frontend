@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { BeatLoader } from "react-spinners";
 
+import BookCard from "../BookCard/BookCard";
 import BookOptions from '../BookOptions/BookOptions';
 import './BooksContainer.css';
 
@@ -49,7 +50,9 @@ function BooksContainer () {
             error}
         </div> :
         <div className="BookListContainer">
-          {JSON.stringify(data)}
+          {data.map(book => (
+            <BookCard key={book.id} book={book} />
+          ))}
         </div>
       }
     </div>
