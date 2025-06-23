@@ -8,3 +8,22 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.BookListContainer {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.TempContainer {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
