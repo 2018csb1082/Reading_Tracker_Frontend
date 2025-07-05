@@ -19,7 +19,7 @@ function BooksContainer () {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/books.json');
+        const response = await fetch(`http://localhost:8080/api/books/status?value=${selection}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
