@@ -14,6 +14,26 @@
   height: 100%;
 
   display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.AddBookContainer {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.BookList {
+  width: calc(100% - 50px);
+  height: 100%;
+
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
@@ -29,4 +49,44 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.AddBookButton {
+  height: 30px;
+  width: 33px;
+  padding: 0 10px;
+  margin-left: 40px;
+
+  border: none;
+  outline: none;
+  background-color: #4169E1;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width 0.4s ease;
+}
+
+.AddBookSpan {
+  opacity: 0;
+  margin-left: 8px;
+  /* transition: opacity 0.3s ease; */
+  pointer-events: none;
+}
+
+/* On hover: expand width and show text */
+.AddBookButton:hover {
+  width: 100px;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.AddBookButton:hover .AddBookSpan {
+  opacity: 1;
 }
