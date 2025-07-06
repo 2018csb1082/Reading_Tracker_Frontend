@@ -3,6 +3,7 @@ import { BeatLoader } from "react-spinners";
 
 import BookCard from "../BookCard/BookCard";
 import BookOptions from '../BookOptions/BookOptions';
+import BookList from './BookList';
 import './BooksContainer.css';
 
 function BooksContainer () {
@@ -49,11 +50,7 @@ function BooksContainer () {
             /> :
             error}
         </div> :
-        <div className="BookListContainer">
-          {data.map(book => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
+        <BookList data={data}/>
       }
     </div>
   );
