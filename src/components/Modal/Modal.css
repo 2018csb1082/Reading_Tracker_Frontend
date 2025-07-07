@@ -1,0 +1,53 @@
+.ModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.ModalContent {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.ModalHeader {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.ModalBody {
+  margin-bottom: 20px;
+}
+
+.ModalFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.ModalButton {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4169E1;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ModalButton:hover {
+  background-color: #3151b7;
+}
