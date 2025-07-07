@@ -9,7 +9,7 @@ const BookList = ({data}) => {
   return (
     <div className="BookListContainer">
       <div className="AddBookContainer">
-        <button className="AddBookButton"> 
+        <button className="AddBookButton">
           <span className="AddBookIcon"><IoMdAdd  /></span>
           <span className="AddBookSpan">Add book</span>
         </button>
